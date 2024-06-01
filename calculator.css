@@ -1,0 +1,139 @@
+h1 {
+    font-size: 20px;
+}
+
+#result {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(126, 126, 126);
+    height: 50px;
+    width: 250px;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 2px;
+    margin-top: 5px;
+    margin-left: 7px;   
+    margin-bottom: 5px;
+}
+
+.num-btn {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(126, 126, 126);
+    padding: 14px;
+    width: 50px;
+    height: 40px;
+    margin: 3px;
+    font-size: 12px;
+}
+
+#decimal {
+    background-color: rgba(0, 0, 0, 0.050);
+    color: rgb(118, 118, 254);
+    
+}
+
+#times_ten_btn {
+    background-color: rgba(0, 0, 0, 0.050);
+    color: rgb(83, 163, 255);
+}
+
+#del_btn {
+    background-color: rgba(0, 0, 0, 0.050);
+    color: rgb(83, 163, 255);
+}
+
+#ac_btn {
+    background-color: rgba(0, 0, 0, 0.050);
+    color: rgb(83, 163, 255);
+}
+
+#add {
+    background-color: rgba(0, 0, 0, 0.050);
+    color: rgb(83, 163, 255);
+}
+
+#divide {
+    background-color: rgba(0, 0, 0, 0.050);
+    color: rgb(83, 163, 255);
+}
+
+#multiply {
+    background-color: rgba(0, 0, 0, 0.050);
+    color: rgb(83, 163, 255);
+}
+
+#subtract {
+    background-color: rgba(0, 0, 0, 0.050);
+    color: rgb(83, 163, 255);
+} 
+#ans {
+    background-color: rgba(0, 0, 0, 0.050);
+    color: rgb(83, 163, 255);
+}
+
+#equal {
+    background-color: rgba(50, 67, 255, 0.800);
+    color: white;
+}
+
+@media (min-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    #result {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(126, 126, 126);
+        height: 100px;
+        width: 500px;
+        font-size: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 2px;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .num-btn {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(22, 14, 14);
+        padding: 14px;
+        width: 100px;
+        height: 90px;
+        margin: 5px;
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1000px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    #result {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(126, 126, 126);
+        height: 150px;
+        width: 740px;
+        font-size: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 2px;
+        margin-top: 25px;
+        margin-left: 20px;
+        margin-bottom: 25px;
+    }
+    
+    .num-btn {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(22, 14, 14);
+        padding: 14px;
+        width: 140px;
+        height: 130px;
+        margin: 10px;
+        font-size: 34px;
+    }
+
+
+}
